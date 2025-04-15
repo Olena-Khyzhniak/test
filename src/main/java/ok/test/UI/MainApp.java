@@ -1,4 +1,4 @@
-package ok.test;
+package ok.test.UI;
 
 import java.io.IOException;
 

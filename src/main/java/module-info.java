@@ -13,8 +13,10 @@ module ok.test {
 
     opens ok.test to javafx.fxml;
     opens ok.test.Controller to javafx.fxml;
+    opens ok.test.UI to javafx.fxml;
 
-    exports ok.test;
-    exports ok.test.Controller to javafx.fxml;
+    exports ok.test.UI;
+    exports ok.test.Controller;
+
 
 }
